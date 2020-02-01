@@ -1,0 +1,23 @@
+@import url('components/header.css');
+@import url('components/banner.css');
+@import url('normalize.css');
+
+*{
+font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    max-width: 1366px;
+    border:1px dashed grey;
+    margin: 0 auto;
+}
+:root{
+    --green-color:#00D053;
+    --main-color:#ffffff;
+    --back-grey:#343C4A;
+    --section-title-color:#333333;
+    --section-desc-color:#444444;
+    --section-story-background:#F8F8F8;
+    --border-color:#B4b4b4;
+    --banner-text:#F5F5F5;
+}
