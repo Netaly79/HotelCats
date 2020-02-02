@@ -8,6 +8,8 @@
     width: 100%;
     height: 100%;
     position: relative;
+    display:flex;
+    align-items: center;
     
 }
 .mask img{
@@ -17,4 +19,45 @@
     width: 100%;
     height: 100%;
     opacity: 0.5;
+    z-index: 0;
+}
+.banner-info{
+    margin-left:198px;
+    position: absolute;
+    z-index: 1;
+    top:40%;
+}
+.city{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0px;
+}
+.title{
+    margin-top:0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 73px;
+}
+.desc{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top:0;
+}
+
+.booking-btn{
+    box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding:18px 63px 20px 30px;
+    background: url("../../images/paw.png") no-repeat scroll 95% 50%  #FFFEFD;
+}
+.booking-btn:hover{
+    box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+    background: url("../../images/paw-inv.png") no-repeat scroll 95% 90%  var(--orange);
 }
