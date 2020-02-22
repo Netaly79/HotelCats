@@ -1,0 +1,27 @@
+.section{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+.paw-big{
+    position: absolute;
+    top:-150px;
+    right: -100px;
+    z-index: -1;
+}
+.fish-big{
+    position: absolute;
+    z-index: -1;
+    left:-100px;
+}
+.left{
+    right:0;
+    top:0;
+}
