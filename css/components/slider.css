@@ -35,7 +35,7 @@
 .slider {
     margin-top: 50px;
     position: relative;
-  
+    margin-bottom: 100px;
   }
   
   .slider-inner {
@@ -53,7 +53,7 @@
     height: 400px;
     float:left;
   }
-  .slider-slides img {
+  .nomer-pic > img {
     width: 600px;
     height: 480px;
     float:left;
@@ -88,14 +88,18 @@
     background-color: #FAC663;
   }
   
-  #btn-1:checked ~ .slider-inner .slider-slides {
+  #btn-1:checked ~ .slider-inner .slider-slides,
+  #btn-4:checked ~ .slider-inner .slider-slides
+   {
     transform: translate(0);
   }
   
-  #btn-2:checked ~ .slider-inner .slider-slides {
+  #btn-2:checked ~ .slider-inner .slider-slides,
+  #btn-5:checked ~ .slider-inner .slider-slides {
     transform: translate(-1170px);
   }
   
-  #btn-3:checked ~ .slider-inner .slider-slides {
+  #btn-3:checked ~ .slider-inner .slider-slides,
+  #btn-6:checked ~ .slider-inner .slider-slides {
     transform: translate(-2340px);
   }

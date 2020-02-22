@@ -1,0 +1,50 @@
+.contacts-box{
+    display:flex;
+}
+.contact-info{
+    background-color: #FAC663;
+    flex-grow: 1;
+}
+.contact-container{
+    margin:70px auto;
+    width: 60%;
+}
+.contact-title{
+    text-align: left;
+}
+.block-title{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.block-desc{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 35px;
+}
+.social{
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+.social:hover{
+    opacity: 0.5;
+}
+
+.map{
+    flex-basis: 700px;
+    flex-shrink: 0;
+    min-height: 500px;
+    background-image: url("../../images/map.png");
+    position: relative;
+}
+.marker{
+    position: absolute;
+    left:35%;
+    top:50%;
+}

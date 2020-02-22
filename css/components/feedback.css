@@ -1,0 +1,37 @@
+.feedbacks-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.single-feedback{
+    display:flex;
+    width:30%;
+}
+.fb-image{
+    width:25px;
+    object-fit: contain;
+    margin-top:24px;
+    margin-right: 10px;
+    align-self: start;
+    flex-basis: 35px;
+    flex-shrink: 0;
+}
+.fb-text{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+.author,
+.date{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.fb-author{
+    display:flex;
+    justify-content: space-between;
+}
